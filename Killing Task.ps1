@@ -2,7 +2,7 @@
 $web = "msedgewebview2"
 
 
-
+#For Each loop to kill the webview 2 processes
 foreach ($web in $process){
     taskkill /F /IM msedgewebview2.exe
 }
