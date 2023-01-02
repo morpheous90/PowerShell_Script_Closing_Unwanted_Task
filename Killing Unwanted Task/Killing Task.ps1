@@ -1,15 +1,10 @@
-﻿#$task = gps | Where-Object {$_.Name -match "msedgewebview2.exe"}
-
-# $service  =  Get-Process | Where-Object {$_.Name = "msedgewebview2.exe"}
-# $service
-$process = Get-Process msedgewebview2
+﻿$process = Get-Process msedgewebview2
 $web = "msedgewebview2"
-# $process
 
-#for each should work here.
+
+
 foreach ($web in $process){
     taskkill /F /IM msedgewebview2.exe
-    echo "Web"
 }
 
 
