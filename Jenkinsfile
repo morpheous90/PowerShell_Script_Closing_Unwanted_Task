@@ -3,8 +3,10 @@ pipeline{
   stages{
     stage('kill task'){
       steps {
+        bat '''
         @echo off
         echo Hello, World
+        '''
       }
     }
   }
