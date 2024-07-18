@@ -8,9 +8,9 @@ foreach ($web in $process){
 }
 
 
-taskkill /F /IM Spotify.exe
+#taskkill /F /IM Spotify.exe
 
-taskkill /F /IM MSEdge.exe
+#taskkill /F /IM MSEdge.exe
 
 taskkill /F /IM PSAgent.exe
 
